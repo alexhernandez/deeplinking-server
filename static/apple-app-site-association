@@ -1,0 +1,23 @@
+{
+  "activitycontinuation": {
+    "apps": [
+      "<APP_ID_PREFIX>.<APP_BUNDLE_ID>"
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "<APP_ID_PREFIX>.<APP_BUNDLE_ID>"
+    ]
+  },
+  "applinks": {
+    "apps": [
+
+    ],
+    "details": [
+      {
+        "appID": "<APP_ID_PREFIX>.<APP_BUNDLE_ID>",
+        "paths": ["*"]
+      }
+    ]
+  }
+}

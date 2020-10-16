@@ -1,0 +1,18 @@
+{
+  "name": "deeplink-server",
+  "author": "Alex Hernandez",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start:dev": "NODE_ENV=development node ./index.js",
+    "start:prod": "NODE_ENV=production node ./index.js",
+    "dev": "NODE_ENV=development nodemon ./index.js",
+    "prod": "NODE_ENV=production nodemon ./index.js",
+    "ssl": "../scripts/ssl.sh"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
