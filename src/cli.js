@@ -1,3 +1,0 @@
-// SERVER CLI
-
-// Coming Soon...
